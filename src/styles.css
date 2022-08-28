@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+
+.App {
+  font-family: "Quintessential", cursive;
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  background-color: #fca5a5;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #b91c1c;
+}
+
+h1 {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #1c1917;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+input {
+  padding: 0.7rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+h3 {
+  margin-top: 1.5rem;
+}
