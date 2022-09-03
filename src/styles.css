@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
 
+:root {
+  --primary-color: #fca5a5;
+  --secondary-color: #b91c1c;
+}
+
 .App {
   font-family: "Quintessential", cursive;
   text-align: center;
@@ -7,13 +12,13 @@
 }
 
 body {
-  background-color: #fca5a5;
+  background-color: var(--primary-color);
   margin: 0;
   padding: 0;
 }
 
 nav {
-  background-color: #b91c1c;
+  background-color: var(--secondary-color);
 }
 
 h1 {
@@ -49,4 +54,16 @@ input:focus {
 
 h3 {
   margin-top: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: black;
 }
