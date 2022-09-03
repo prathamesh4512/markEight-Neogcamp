@@ -58,12 +58,20 @@ h3 {
 
 /* Footer */
 .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
-  margin-top: 50px;
+  background-color: var(--secondary-color);
+}
+
+.social-links {
+  margin-bottom: 1rem;
 }
 
 .link {
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   color: black;
 }

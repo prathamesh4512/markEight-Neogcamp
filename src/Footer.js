@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <p>© | 2022 | Prathamesh</p>
-      <div>
+      <div className="social-links">
         <span>
           <a
             className="link"
